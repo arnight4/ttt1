@@ -1,0 +1,192 @@
+h1, h2, ul {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-weight: 900;
+}
+
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: url(img/background.png);
+    min-height: 900px;
+    background-color: #ffbf69;
+    background-position: 65%;
+    background-repeat: no-repeat;
+}
+
+header .menu-container {
+    width: 50%;
+}
+
+.menu-wrapper {
+    display: flex;
+    min-height: 100px;
+    color: white;
+    justify-content: space-between;
+    padding: 0 80px 0 80px;    
+}
+
+.menu-container ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+}
+
+.menu-container ul li{
+    margin: 0 20px 0 auto;
+}
+
+.menu-container{
+    width: 80%;
+}
+
+.menu-wrapper a {
+    text-decoration: none; 
+    color: white;
+    font-weight: 600;
+    line-height: 100px;
+    transition: 240ms;
+}
+
+.menu-wrapper a:hover {
+    font-size: 1.2rem;
+}
+
+
+header .menu-wrapper a {
+    color: black;
+}
+
+header .main {
+    color: white;
+    max-width: 45%;
+    padding: 80px 20px 20px 60px;
+}
+
+header .text {
+    font-weight: 600;
+    margin: 20px;
+    font-size: 28px;
+}
+
+header .main h1 {
+    margin: 20px;
+    font-size: 10vw;
+    font-weight: 900;
+}
+
+.sell-button {
+    text-align: center;
+    font-weight: 600;
+    color:black;
+    transition: 240ms;
+}
+
+.sell-button-big {
+    margin: 20px;
+    background-color: #cbf3f0;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 130px;
+}
+
+#main-2 {
+    margin-top: 0px;
+    text-align: center;
+    min-height: 200px;
+    padding: 50px 20% 50px 20%;
+}
+
+#main-2 h2 {
+    margin: 30px;
+}
+
+#main-3 {
+    background-color: #cbf3f0;
+    min-height: 400px;
+    text-align: center;
+}
+
+#main-3 h2 {
+    padding: 100px 0 30px 0;
+}
+
+#main-3 .flex-wrap{
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+    padding-bottom: 100px;
+}
+
+.carousel-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.carousel-item .text {
+    margin: 10px 0 10px 0;
+    font-weight: 600;
+}
+
+.sell-button-small {
+    background-color: #ffbf69;
+    height: 50px;
+    line-height: 50px;
+    width: 40%;
+}
+
+.carousel-item img {
+    max-height: 400px;
+    max-width: 100%;
+}
+
+.carousel-item .img {
+    max-width: 50%;
+}
+
+#main-4 {
+    background-image: url(img/bg-grid.png);
+    background-color: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    min-height: 380px;
+}
+
+#main-4 .img {
+    margin: -50px 80px 0 40px;
+}
+
+#main-4 img {
+    max-height: 400px;
+}
+
+#main-4 .wrapper {
+    margin: 10px 80px 40px 80px;
+}
+
+#main-4 .wrapper h2 {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #333;
+}
+
+footer .menu-wrapper .menu-container a{
+    font-weight: 100;
+}
+
+.sell-button:hover{
+    filter: invert(1);
+}
